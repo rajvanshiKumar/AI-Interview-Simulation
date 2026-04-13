@@ -14,6 +14,13 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(os.path.join(BASE_DIR, '.env'))
 
