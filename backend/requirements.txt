@@ -7,3 +7,5 @@ python-dotenv
 drf-yasg
 whitenoise
 gunicorn
+
+djangorestframework-simplejwt==5.3.1
